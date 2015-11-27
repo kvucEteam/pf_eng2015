@@ -18,8 +18,8 @@ h1 {
 }
 
 .jumbotron a {
-    margin-top: 15px;
     font-weight: 200;
+    margin-top: 15px;
 }
 
 .jumbotron {
@@ -45,63 +45,23 @@ h1 {
 .thumb_img_container img {
     display: block;
     margin: 0 auto;
-    vertical-align: middle;
     max-width: 100%;
+    vertical-align: middle;
 }
-
 
 .indlejring_container a {
     margin-right: 0;
 }
 
-@media screen and (max-width: 480px) {
-    .btn-lg {
-        display: inline-block;
-        float: none;
-    }
-    .indlejring_container {
-        margin-top: -40px;
-        float: none;
-        display: block;
-    }
-}
-
-
-/********************************************************** 
-		Nedenstaaende tilfoejet af THAN 13-07-2015
-**********************************************************/
-
-h2 {
-    margin-top: 0px;
-}
-
-.container,
-.container-fluid {
-    background-color: inherit;
-}
-
-.container-fluid {
-    background-color: #f8f8f6;
-    max-width: 1164px;
-    padding: 0 30px 30px;
-}
-
-.container-fluid:nth-of-type(2) {
-    margin-top: 20px;
-}
-
-
-/*.container{margin-top: 20px;}*/
-
-
-/*.om_wrapper{background-color: #f8f8f6;}*/
-
-
-/* Denne klasse er tilfoejet af THAN d. 14-07-2015 */
-
 .indlejring_container {
+    display: block;
     float: right;
     margin-top: -50px;
+}
+
+.MetaDataLink {
+    color: #0071bc;
+    margin-right: 20px;
 }
 
 .btn_container {
@@ -109,33 +69,76 @@ h2 {
     margin-top: 20px;
 }
 
-html {
-    font-size: inherit;
+.embedToggle {
+    margin-top: 8px;
 }
 
-body {
-    font-size: inherit;
-    line-height: 1.4;
-}
-
-.vuc_footer {
-    text-align: center;
-    background-color: #f8f8f6;
-    padding-bottom: 30px;
-    padding-top: 30px;
+.tabcontainer {
+    font-size: 12px;
     margin-top: 20px;
 }
 
-.thumbnail {
-    margin-bottom: 23px;
-    border: none;
+.tab {
+    background-color: #eee;
+    border-radius: 2px;
+    color: #222;
+    cursor: pointer;
+    float: left;
+    padding: 0 5px;
 }
 
+.activetab {
+    background-color: white;
+}
 
-/********************************************************** 
-        Nedenstaaende tilfoejet af THAN 17-08-2015
-**********************************************************/
+.togglecontainer {
+    background-color: white;
+    border: 1px solid #eee;
+    clear: both;
+    padding: 4px;
+}
 
-a {
-    font-size: 12px;
+.embedtext {
+    margin-top: -8px;
+    width: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.glyphicon {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.btn-lg {padding: 10px 20px;}
+
+.vuc_footer{margin-top: 20px; padding-top: 30px; padding-bottom: 30px; background-color: #f8f8f6;; text-align: center}
+.vuc_footer h2 {margin-top: 0px; margin-bottom: 20px; padding: 0px;}
+.footerText{margin: 0px; color: #666;}
+.footerCopywrite{margin-top: 20px; margin-bottom: 0px;}
+
+.container_main{
+    background-color: white;
+}
+
+.thumbnail{
+    border:none;
+}
+/*gør .btn-lg mindre mellem første og tredje break-point*/
+@media only screen and (min-width:992px) and (max-width: 1199px)  {
+    .btn-lg {
+        font-size:14px;
+    }
+}
+@media only screen and (max-width: 992px)  {
+    .indlejring_container{
+        display: none;   
+    }
 }

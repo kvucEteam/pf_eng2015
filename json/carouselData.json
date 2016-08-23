@@ -1,0 +1,39 @@
+{
+    "carouselData": {
+        "subHeader": "Øvrige objekter for faget Dansk...",
+        "slides": [
+            {
+                "slideLink": "https://www.vucdigital.dk/ks_tinder/problemformulering.html",
+                "overlay": "<h3>Setting</h3><p>Introduction to analysis.</p>",
+                "type": "video",
+                "src": "https://www.youtube.com/embed/4lIYv66vKGc?rel=0"
+            }, {
+                "slideLink": "https://www.vucdigital.dk/danA_selvfremstilling/selvfremstilling.html?file=_k1",
+                "overlay": "<h3>Character</h3><p>Introduction to analysis.</p>",
+                "type": "video",
+                "src": "https://www.youtube.com/embed/8QuaPm7FHR4?rel=0"
+            },{
+                "slideLink": "https://www.vucdigital.dk/danA_MCWriteNight/mc_write_night.html",
+                "overlay": "<h3>Point of View</h3><p>Introduction to analysis.</p>",
+                "type": "video",
+                "src": "https://www.youtube.com/embed/9QT2bOW5aaA?rel=0"
+            }, {
+                "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                "overlay": "<h3>Theme</h3><p>Introduction to analysis.</p>",
+                "type": "video",
+                "src": "https://www.youtube.com/embed/3ZhD2SCq0Mw?rel=0"
+            }, {
+                "slideLink": "https://www.vucdigital.dk/kemiC_ionforbindelser/step1.html",
+                "overlay": "<h3>The Jungian Optics</h3><p>Advanced inspiration to textanalysis.</p>",
+                "type": "video",
+                "src": "https://www.youtube.com/embed/_BWv9stA6ok?rel=0"
+            }, {   
+                "slideLink": "https://www.vucdigital.dk/kemiC_bundfald/bundfald_over_c.html",
+                "overlay": "<h3>The Monomyth</h3><p>Advanced inspiration to textanalysis.</p>",
+                "type": "video",
+                "src": "https://www.youtube.com/embed/JIKmCEkEElI?rel=0"
+            }
+        ]
+    }
+}
+
